@@ -1,6 +1,7 @@
-## Blog để lưu trữ solutions cho các bài tập online (Cses, vnoi, etc...)
-## I. Đồ thị Cses problems
+###### Blog để lưu trữ solutions cho các bài tập online (Cses, vnoi, etc...)
+### I. Đồ thị Cses problems
 ## 1) Counting Rooms
+# Code:
 ```C++
 //Nguyen Huu Hoang Minh
 #include <bits/stdc++.h>
@@ -79,31 +80,5 @@ signed main()
     return 0;
 }
 ```
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/minhnguyen28204/problemskiller.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Solutions:
+bfs từng tọa độ, nếu tại vị trí (i,j) chưa thăm thì bắt đầu bfs tại (i,j) và tăng số rooms lên 1.
