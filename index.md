@@ -1,7 +1,7 @@
-###### Blog để lưu trữ solutions cho các bài tập online (Cses, vnoi, etc...)
-### I. Đồ thị Cses problems
-## 1) Counting Rooms
-# Code:
+# Blog để lưu trữ solutions cho các bài tập online (Cses, vnoi, etc...)
+## I. Đồ thị Cses problems
+### 1) Counting Rooms
+#### Code:
 ```C++
 //Nguyen Huu Hoang Minh
 #include <bits/stdc++.h>
@@ -80,5 +80,5 @@ signed main()
     return 0;
 }
 ```
-# Solutions:
+#### Solutions:
 bfs từng tọa độ, nếu tại vị trí (i,j) chưa thăm thì bắt đầu bfs tại (i,j) và tăng số rooms lên 1.
